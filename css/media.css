@@ -1,0 +1,23 @@
+@media screen and (max-width: 992px) {
+    .navbar-nav a{
+        border:none !important;
+    }
+}
+@media screen and (max-width: 500px){
+    .search{
+        margin-top: 25%;
+    }
+    .card{
+        border-radius: 10px;
+    }
+    .weather-header{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    footer .search{
+        width: 100% !important;
+    }
+    footer .search button{
+        font-size: 15px;
+    }
+}
